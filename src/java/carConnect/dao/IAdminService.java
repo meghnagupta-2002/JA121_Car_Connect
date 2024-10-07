@@ -1,6 +1,6 @@
-package java.carConnect.dao;
+package carConnect.dao;
 
-import java.carConnect.entity.Admin;
+import carConnect.entity.Admin;
 
 public interface IAdminService {
 	//Declaration of Non-Implemented Methods
