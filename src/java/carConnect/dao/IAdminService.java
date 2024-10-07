@@ -4,9 +4,9 @@ import carConnect.entity.Admin;
 
 public interface IAdminService {
 	//Declaration of Non-Implemented Methods
-	Admin getAdminById(int adminId);
+	Admin getAdminByID(int adminID);
     Admin getAdminByUsername(String username);
     void registerAdmin(Admin admin);
     void updateAdmin(Admin admin);
-    void deleteAdmin(int adminId);
+    void deleteAdmin(int adminID);
 }
