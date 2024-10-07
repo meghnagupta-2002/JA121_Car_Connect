@@ -1,4 +1,4 @@
-package java.carConnect.entity;
+package carConnect.entity;
 
 public class Vehicle {
 	// Properties of Vehicle Class
