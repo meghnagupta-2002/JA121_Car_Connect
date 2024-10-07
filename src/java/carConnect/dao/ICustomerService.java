@@ -1,11 +1,11 @@
-package java.carConnect.dao;
+package carConnect.dao;
 
-import java.carConnect.entity.Customer;
+import carConnect.entity.Customer;
 
 public interface ICustomerService {
-	Customer getCustomerById(int customerId);
+	Customer getCustomerByID(int customerID);
     Customer getCustomerByUsername(String username);
     void registerCustomer(Customer customerData);
     void updateCustomer(Customer customerData);
-    void deleteCustomer(int customerId);
+    void deleteCustomer(int customerID);
 }
