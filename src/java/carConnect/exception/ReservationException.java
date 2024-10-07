@@ -1,4 +1,4 @@
-package java.carConnect.exception;
+package carConnect.exception;
 
 public class ReservationException extends Exception{
 	private static final long serialVersionUID = 1L;
