@@ -1,4 +1,4 @@
-package java.carConnect.entity;
+package carConnect.entity;
 
 import java.util.Date;
 
