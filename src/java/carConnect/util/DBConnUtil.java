@@ -1,4 +1,4 @@
-package java.carConnect.util;
+package carConnect.util;
 
 import java.sql.*;
 
